@@ -1,0 +1,22 @@
+# CONCEPTS THAT ARE USED IN PYTHON CODE_FINANCE:
+"The Grocery Bill Generator program uses the following Python concepts:"
+
+1. Dictionary – to store item code, name, price and GST rate
+
+2. List – to create a shopping cart that can add many items
+
+3. while loop – to allow customer to buy multiple items
+
+4. for loop – to display menu and print bill items
+
+5. if-elif-else – for valid/invalid code checking and choice = 0
+
+6. f-strings – for neat and aligned bill printing
+
+7. datetime module – to print current date and time on bill
+
+8. Arithmetic operations – for calculating amount, GST and grand total
+
+9. append() – to add purchased items into cart list
+
+"All these concepts together make a complete real-life billing system without using any complex or unsafe commands."

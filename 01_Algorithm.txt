@@ -1,0 +1,41 @@
+#ALGORITHM - GROCERY BILL GENERATOR:
+
+1. Show Shop Name
+Print "QUICK MART GROCERY STORE" with stars
+
+2. Make Item List (like a menu card)
+Write all items with code, name, price and GST
+Example: 1 → Rice 5kg → ₹450 → 5% GST
+
+3. Prepare Empty Cart
+Make an empty basket to keep selected items
+
+4. Keep Asking Customer
+Show the full menu again and again
+
+5. Customer Picks Item
+Customer types item code (like 1, 2, 3...)
+
+6. Ask How Many?
+Customer types quantity (how many packets)
+
+7. Calculate Money for That Item
+Money = Price × Quantity
+GST = Money × GST% ÷ 100
+Total for this item = Money + GST
+Put this item inside cart
+
+8. Ask Again
+"Want more items?" → Go back to step 4
+If customer types 0 → Stop shopping
+
+9. Print Final Bill
+Show date and time
+Show all items from cart nicely
+Add all money (Subtotal)
+Add all GST
+Show Grand Total (big amount)
+
+10. **Say Thank You!
+Print "THANK YOU! VISIT AGAIN" and wait for Enter key
+Done!

@@ -1,0 +1,34 @@
+                    #FLOWCHART TO EXPLAIN PYTHON CODE
+                  
+                     ┌──────────────────────────────┐
+                     │       MAIN PROGRAM           │
+                     └────────────┬─────────────────┘
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        ▼                         ▼                         ▼
+1. Display Store Header    2. Show Menu Again & Again   3. Generate Final Bill
+        │                         │                         │
+        ▼                         ▼                         ▼
+┌───────────────┐       ┌──────────────────────┐    ┌────────────────────────┐
+│Print shop name│       │ While customer wants │    │When customer types 0   │
+│with stars     │       │ to buy more items    │    │print complete bill     │
+└───────┬───────┘       └─────────┬────────────┘    └───────────┬────────────┘
+        │                         |                             │
+        ▼                         ▼                             ▼
+   (Just once)             4. Take Item Choice         5. Calculate & Add to Cart
+                                │                           │
+                                ▼                           ▼
+                       ┌────────────────────┐   ┌────────────────────────────┐
+                       │Check if code is    │   │ Ask quantity               │
+                       │correct (1 to 8)    │   │ Calculate:                 │
+                       │If wrong → say      │   │ amount = price × qty       │
+                       │"Wrong code!"       │   │ gst_amount = amount × gst% │
+                       └────────┬─────────  |   │ total = amount + gst_amount│
+                                |               └────────────┬───────────────┘
+                                │                            │
+                                │                            ▼
+                                │                  Store in cart list
+                                │                          │
+                                └──────────────────────────┘
+
+After shopping is finished → Go to Step 3 (Generate Bill)

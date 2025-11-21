@@ -1,0 +1,32 @@
+#TOP-DOWN DESIGN IN SIMPLE STEPS:
+Level 0 (Main Module)
+Start → Run whole billing program → End
+
+Level 1 (Major Tasks)
+1.DisplayStoreHeader()
+2.ShoppingLoop()
+3.PrintFinalBill()
+
+Level 2 (Break each task)
+1.DisplayStoreHeader()
+→ Print stars and shop name
+2.ShoppingLoop()
+→ Repeat forever:
+→ ShowMenu()
+→ choice = input code
+→ if choice == 0 → stop loop
+→ else → GetQuantityAndAddToCart()
+3.ShowMenu()
+→ Print all items with code, name, price, GST
+4.GetQuantityAndAddToCart()
+→ Ask "How many?"
+→ Calculate amount, GST, total for that item
+→ Add item to cart
+→ Update subtotal
+5.PrintFinalBill()
+→ If cart empty → say "No items"
+→ Else:
+→ Print date & time
+→ Print all items from cart
+→ Print subtotal, total GST, grand total
+→ Print "Thank You" message
